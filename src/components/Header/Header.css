@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "SF Pro Display Thin";
+  src: url("/fonts/FontsFree-Net-SFProDisplay-Thin.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "SF Pro Display Black";
+  src: url("/fonts/FontsFree-Net-SFProDisplay-Black.ttf") format('truetype');
+  /* font-family: 24; */
+}
+
+@font-face {
+  font-family: "SF Pro Dislpay Semibold";
+  src: url("/fonts/FontsFree-Net-SFProDisplay-Semibold.ttf") format('truetype');
+}
+
+#main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 735px;
+  /* Placement */
+  background-color: black;
+  background-image: url("/images/HelenHero.svg");
+  background-position: center -223px;
+  background-size: 202% 203%;
+}
+
+#main-nav {
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 96px;
+}
+
+#site-title {
+  display: flex;
+  flex-direction: column;
+}
+
+#header-title {
+  margin-bottom: 4px;
+  font-family: "SF Pro Display Thin", sans-serif;
+  font-weight: 100;
+  font-size: 61px;
+  color: #EDE9D0;
+}
+
+#subheader {
+  margin: 1px 0px;
+  color: #EDE9D0;
+  font-family: "SF Pro Display Black", sans-serif;
+  font-size: 21px;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#site-nav-links {
+  display: flex;
+  column-gap: 48px;
+}
+
+.navbar-links {
+  font-family: "SF Pro Display Semibold", sans-serif;
+  color: #EDE9D0;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#schedule-button {
+  cursor: pointer;
+  font-family: "SF Pro Display Semibold", sans-serif;
+  background-color: #EDE9D0;
+  color: #141C1F;
+  padding: 11px 16px;
+  border-radius: 4px;
+  border: none;
+  width: 151px;
+  height: 39px;
+  align-self: flex-end;
+  margin-right: 96px;
+  margin-bottom: 64px;
+}
