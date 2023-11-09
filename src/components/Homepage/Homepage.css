@@ -1,0 +1,18 @@
+#about-me-container {
+  display: flex;
+  margin: 128px auto;
+  width: 965px;
+  height: 385px;
+  column-gap: 128px;
+}
+
+#about-me-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-credentials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
