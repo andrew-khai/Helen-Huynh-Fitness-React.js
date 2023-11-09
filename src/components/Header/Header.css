@@ -83,4 +83,6 @@
   align-self: flex-end;
   margin-right: 96px;
   margin-bottom: 64px;
+  font-size: 12px;
+  font-weight: 600;
 }
