@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "SF Pro Display Regular";
+  src: url("/fonts/FontsFree-Net-SFProDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: url("/fonts/FontsFree-Net-SFProDisplay-Bold.ttf") format("truetype");
+}
+
 #about-me-container {
   display: flex;
   margin: 128px auto;
@@ -8,11 +18,86 @@
 
 #about-me-details-container {
   display: flex;
+  width: 514px;
+  height: auto;
+  padding: 5px 0px;
   flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.first-about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
 }
 
 .about-me-credentials {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 12px;
+}
+
+.helenhuynh {
+  margin: 0px;
+  color: #2F4858;
+  font-family: "SF Pro Display Thin", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 110;
+  line-height: normal;
+}
+
+.degree-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.degree {
+  margin: 0;
+  color: #2F4858;
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.experience {
+  width: 479px;
+  height: 29px;
+}
+
+.experience p {
+  color: #2F4858;
+  font-family: "SF Pro Display Bold";
+}
+
+.second-about-me {
+  color: #2F4858;
+  font-family: "SF Pro Display Thin";
+  overflow: hidden;
+  text-align: justify;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
+.about-button {
+  display: flex;
+  padding: 11px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #2F4858;
+  box-shadow: 4px 8px 20px 0px rgba(47, 72, 88, 0.25);
+  border: none;
+  color: #FFFFFF;
 }
