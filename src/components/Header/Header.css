@@ -67,6 +67,26 @@
   color: #EDE9D0;
   text-decoration: none;
   font-size: 20px;
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+}
+
+.navbar-links::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: #EDE9D0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.navbar-links:hover::after,
+.navbar-links:focus::after {
+  width: 100%;
 }
 
 #schedule-button {
