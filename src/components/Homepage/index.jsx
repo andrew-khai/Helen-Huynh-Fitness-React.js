@@ -10,24 +10,24 @@ const HomePage = () => {
         <div id="about-me-details-container">
           <div className="first-about-me">
             <div className="about-me-credentials">
-              <p style={{fontSize: "64px"}}>Helen Huynh</p>
-              <div>
-                <p>B.S. in Health Science</p>
-                <p>M.S. in Food Science</p>
+              <p className="helenhuynh">Helen Huynh</p>
+              <div className="degree-container">
+                <p className="degree">B.S. in Health Science</p>
+                <p className="degree">M.S. in Food Science</p>
               </div>
             </div>
-            <div>
-              <p><strong>5+ YEARS</strong> OF FITNESS AND NUTRITION COACHING</p>
+            <div className="experience">
+              <p><strong>5+ YEARS</strong> <span style={{fontFamily: "SF Pro Display Regular"}}>OF FITNESS AND NUTRITION COACHING</span></p>
             </div>
           </div>
           <div className="second-about-me">
-            <p>
-            She specializes in nutrition coaching, muscle building, fat loss, athletic performance, and overall health and longevity.
+            <p style={{margin: "0px"}}>
+            She specializes in <i>nutrition coaching, muscle building, fat loss, athletic performance, and overall health and longevity. </i>
             Her passion is to build a lifelong relationship with my clients and become poignant in my clients' lives through guidance, motivation, and experience.
             </p>
           </div>
           <div>
-            <button>
+            <button className="about-button">
               About
             </button>
           </div>
