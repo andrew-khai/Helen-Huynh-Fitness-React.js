@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "SF Pro Display Light";
+  src: url("/fonts/FontsFree-Net-SFProDisplay-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Graphik Regular";
+  src: url("/fonts/Graphik-Regular-Trial.otf") format("opentype");
+}
+
+#main-footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 55px;
+  background-color: #F6F0D5;
+}
+
+#location-hours-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  max-width: 1193px;
+  padding: 0 20px;
+  margin: 0px auto;
+  margin-top: 60px;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.location-title {
+  color: #2F4858;
+  font-family: "SF Pro Display Light";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.location-name {
+  color: #2F4858;
+  font-family: "SF Pro Display Bold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.location-container p {
+  margin: 0px;
+  color: #2F4858;
+  font-family: "SF Pro Display Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hours-container {
+  display: flex;
+  width: 184px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.date-time-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  color: #2F4858;
+  font-family: "SF Pro Display Regular";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#bottom-nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+#company-copyright {
+  color: #2F4858;
+  font-family: "Graphik Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#bottom-nav-links {
+  width: 100%;
+  max-width: 1193px;
+  margin: 0 auto;
+  padding: 20px 20px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bottom-navbar-container {
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+#bottom-navbar-container a {
+  color: #2F4858;
+  font-family: "SF Pro Display Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#social-links-container {
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#social-links-container a {
+  color: #2F4858
+}
