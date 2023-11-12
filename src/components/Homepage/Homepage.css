@@ -8,9 +8,12 @@
   src: url("/fonts/FontsFree-Net-SFProDisplay-Bold.ttf") format("truetype");
 }
 
+/* About Me Section */
+
 #about-me-container {
   display: flex;
-  margin: 128px auto;
+  margin: 0px auto;
+  margin-top: 128px;
   width: 965px;
   height: 385px;
   column-gap: 128px;
@@ -74,12 +77,12 @@
 
 .experience p {
   color: #2F4858;
-  font-family: "SF Pro Display Bold";
+  font-family: "SF Pro Display Bold", sans-serif;
 }
 
 .second-about-me {
   color: #2F4858;
-  font-family: "SF Pro Display Thin";
+  font-family: "SF Pro Display Thin", sans-serif;
   overflow: hidden;
   text-align: justify;
   text-overflow: ellipsis;
@@ -100,4 +103,127 @@
   box-shadow: 4px 8px 20px 0px rgba(47, 72, 88, 0.25);
   border: none;
   color: #FFFFFF;
+}
+
+/* Review Section */
+#reviews-section-container {
+  color: #FFFFFF;
+  width: 100%;
+  background-color: #2F4858;
+  display: flex;
+  padding: 40px 142px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+#reviews-container {
+  display: flex;
+  padding: 64px 0px;
+  align-items: flex-start;
+  gap: 147px;
+  align-self: stretch;
+}
+
+#main-review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.main-review {
+  display: flex;
+  width: 720px;
+  height: 240px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.main-reviewer {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.reviewers {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "SF Pro Display Bold", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-variant: small-caps;
+}
+
+.review-stars {
+  display: flex;
+  gap: 5px;
+  color: #F9F871;
+  font-size: 25px;
+}
+
+.main-review-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  align-self: stretch;
+  overflow: hidden;
+  color: #FFFFFF;
+  text-overflow: ellipsis;
+  font-family: "SF Pro Display Semibold", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.reviews-link {
+  color: #FFF;
+  font-family: "SF Pro Display Regular", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+#other-reviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.other-review {
+  display: flex;
+  width: 289px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.other-reviewer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+}
+
+.other-review-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  align-self: stretch;
+  overflow: hidden;
+  color: #FFFFFF;
+  text-overflow: ellipsis;
+  font-family: "SF Pro Display Regular", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
