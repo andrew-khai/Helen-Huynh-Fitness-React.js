@@ -46,7 +46,7 @@ const HomePage = () => {
                 Helen takes the time to understand individual needs and tailors every aspect of the program accordingly. Her knowledge is not only impressive but also deeply practical, making the journey towards a healthier lifestyle both educational and enjoyable.
               </div>
             </div>
-            <a className="reviews-link" href="/">More Yelp reviews</a>
+            <a className="reviews-link" target="_blank" href="https://www.yelp.com/biz/foothill-physique-studio-monrovia?q=helen">More Yelp reviews</a>
           </div>
           <div id="other-reviews-container">
             <div className="other-review">
