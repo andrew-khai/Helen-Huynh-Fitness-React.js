@@ -8,7 +8,7 @@
   src: url("/fonts/Graphik-Regular-Trial.otf") format("opentype");
 }
 
-#main-footer-container {
+/* #main-footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,18 +17,29 @@
   height: auto;
   gap: 55px;
   background-color: #F6F0D5;
+} */
+
+#main-footer-container {
+  width: 100%;
+  height: auto;
+  background-color: #F6F0D5;
+}
+
+#footer-container {
+  display: flex;
+  margin: 0px auto;
+  margin-top: 60px;
+  width: 1183px;
+  flex-direction: column;
+  align-items: center;
+  gap: 76px;
 }
 
 #location-hours-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   align-self: stretch;
-  width: 100%;
-  max-width: 1193px;
-  padding: 0 20px;
-  margin: 0px auto;
-  margin-top: 60px;
 }
 
 .location-container {
@@ -107,7 +118,6 @@
   width: 100%;
   max-width: 1193px;
   margin: 0 auto;
-  padding: 20px 20px 0;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
