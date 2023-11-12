@@ -5,11 +5,11 @@ import { Switch, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <>
+    <main id="main-container">
       <Header />
       <HomePage />
       <Footer />
-    </>
+    </main>
   )
 }
 

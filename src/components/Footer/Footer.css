@@ -40,7 +40,7 @@
 
 .location-title {
   color: #2F4858;
-  font-family: "SF Pro Display Light";
+  font-family: "SF Pro Display Light", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -49,7 +49,7 @@
 
 .location-name {
   color: #2F4858;
-  font-family: "SF Pro Display Bold";
+  font-family: "SF Pro Display Bold", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -59,7 +59,7 @@
 .location-container p {
   margin: 0px;
   color: #2F4858;
-  font-family: "SF Pro Display Regular";
+  font-family: "SF Pro Display Regular", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -80,7 +80,7 @@
   align-items: flex-start;
   align-self: stretch;
   color: #2F4858;
-  font-family: "SF Pro Display Regular";
+  font-family: "SF Pro Display Regular", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -96,7 +96,7 @@
 
 #company-copyright {
   color: #2F4858;
-  font-family: "Graphik Regular";
+  font-family: "Graphik Regular", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
