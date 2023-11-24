@@ -70,6 +70,68 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+      <section id="sessions-section-container">
+        <div className="sessions-container">
+          <div className="sessions-info-container">
+            <div>Available Coaching Sessions</div>
+            <div className="sessions-lines"></div>
+            <div className="sessions-info">
+              <div className="training-and-rates">
+                <div className="training-type">ONE-ON-ONE IN-PERSON TRAINING</div>
+                <div className="pricing">
+                  <div>$80/hr</div>
+                  <div><i class="fa-solid fa-chevron-down"></i></div>
+                </div>
+              </div>
+              <div>
+                Go over goals, and current fitness level, create a custom workout plan, provide exercise instruction, hands-on form and technique corrections,
+                motivation and support, progress tracking, safety and injury prevention, workout variety, education, and provide feedback.
+                Sessions are 60 minutes, structure varies among individuals.
+              </div>
+            </div>
+            <div className="sessions-lines"></div>
+            <div className="sessions-info">
+              <div className="training-and-rates">
+                <div className="training-type">GROUP IN-PERSON TRAINIING</div>
+                <div className="pricing">
+                  <div>$120/hr</div>
+                  <div><i class="fa-solid fa-chevron-down"></i></div>
+                </div>
+              </div>
+              <div>
+                Go over goals, and current fitness level(s), create a custom workout plan(s), provide exercise instruction, hands-on form and technique corrections,
+                motivation and support, progress tracking, safety and injury prevention, workout variety, education, and provide feedback.
+                Sessions are 60 minutes, structure varies among individuals.
+              </div>
+            </div>
+            <div className="sessions-lines"></div>
+            <div className="sessions-info">
+              <div className="training-and-rates">
+                <div className="training-type">GROUP IN-PERSON TRAINIING</div>
+                <div className="pricing">
+                  <div>Rates vary</div>
+                  <div><i class="fa-solid fa-chevron-down"></i></div>
+                </div>
+              </div>
+              <div>
+                Assess, educate, plan, and monitor eating habits. Offer support, feedback, individualized advice, strategies and solutions on
+                how to improve diet to achieve personal goals and an overall healthy lifestyle.
+                Structure varies among individuals.
+              </div>
+            </div>
+            <div className="sessions-lines"></div>
+            <a href="/" id="session-button">
+              Schedule a session
+            </a>
+          </div>
+          <div className="sessions-image">
+
+          </div>
+        </div>
+      </section>
+      <section id="contact-section-container">
+
+      </section>
     </main>
   )
 }
