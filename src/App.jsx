@@ -6,8 +6,12 @@ import { Switch, Route } from "react-router-dom";
 const App = () => {
   return (
     <main id="main-container">
-      <Header />
-      <HomePage />
+      <Switch>
+        <Route exact path="/">
+          <Header />
+          <HomePage />
+        </Route>
+      </Switch>
       <Footer />
     </main>
   )

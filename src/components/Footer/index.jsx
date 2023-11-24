@@ -1,5 +1,5 @@
 import "./Footer.css"
-import { FaYoutube, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaYoutube, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -66,13 +66,13 @@ const Footer = () => {
             </ul>
             <ul id="social-links-container">
               <li>
-                <a href="/"><FaYoutube size={32} style={{ marginRight: '10px' }} /></a>
+                <a href="https://www.linkedin.com/in/helenhuynhh" target="_blank"><FaLinkedin size={32} style={{ marginRight: '10px' }} /></a>
               </li>
               <li>
-                <a href="/"><FaFacebook size={32} style={{ marginRight: '10px' }} /></a>
+                <a href="https://www.facebook.com/helenhuynhhh" target="_blank"><FaFacebook size={32} style={{ marginRight: '10px' }} /></a>
               </li>
               <li>
-                <a href="/"><FaInstagram size={32} /></a>
+                <a href="https://www.instagram.com/helenhuynhh/" target="_blank"><FaInstagram size={32} /></a>
               </li>
             </ul>
           </div>
