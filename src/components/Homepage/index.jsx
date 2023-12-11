@@ -154,7 +154,33 @@ const HomePage = () => {
         </div>
       </section>
       <section id="contact-section-container">
-        <h1>Placeholder</h1>
+        <form className="contact-container">
+          <div className="leftside-contact">
+            <div className="main-contact-content">
+              <div className="left-title">Get in touch with us!</div>
+              <div className="left-text">Feel free to ask any questions and we'll respond as soon as we can.</div>
+            </div>
+            <div className="small-email">helen.huynhh@gmail.com</div>
+          </div>
+          <div className="rightside-contact">
+            <div className="contact-input-container">
+              <div className="contact-info">Name:</div>
+              <input type="text"></input>
+            </div>
+            <div style={{width: '100%', height: '100%', border: '1px #F6F0D5 solid'}}></div>
+            <div className="contact-input-container">
+              <div className="contact-info">Email:</div>
+              <input type="text"></input>
+            </div>
+            <div style={{width: '100%', height: '100%', border: '1px #F6F0D5 solid'}}></div>
+            <div className="contact-textarea-container">
+              <div className="contact-info">Message:</div>
+              <textarea rows={8} placeholder="Leave a message here!"></textarea>
+            </div>
+            <div style={{width: '100%', height: '100%', border: '1px #F6F0D5 solid'}}></div>
+            <button className="contact-submit-button">Submit</button>
+          </div>
+        </form>
       </section>
     </main>
   )
