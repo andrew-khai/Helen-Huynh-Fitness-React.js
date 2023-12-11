@@ -8,6 +8,11 @@
   src: url("/fonts/FontsFree-Net-SFProDisplay-Bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "SF Pro Display Thin";
+  src: url("/fonts/FontsFree-Net-SFProDisplay-Thin.ttf") format('truetype');
+}
+
 #main-container {
   display: flex;
   width: 100%;
@@ -237,6 +242,88 @@
 }
 
 /* Session/Training Section */
+#sessions-section-container {
+  display: flex;
+  padding: 0px 142px;
+  align-items: center;
+  gap: 128px;
+}
+
+.sessions-container {
+  width: 734px;
+}
+
+.sessions-info-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.sessions-section-title {
+  color: #2F4858;
+  font-family: "SF Pro Display Thin";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 110;
+  line-height: normal;
+}
+
+.sessions-info {
+  display: flex;
+  width: 734px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.training-and-rates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.training-type {
+  color: #2F4858;
+  font-family: "SF Pro Display Bold", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-variant: small-caps;
+}
+
+.pricing {
+  display: flex;
+  column-gap: 20px;
+  color: #2F4858;
+  font-family: "SF Pro Display Regualar", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.session-dropdown {
+  cursor: pointer;
+}
+
+.training-description {
+  align-self: stretch;
+  color: #2F4858;
+  font-family: "SF Pro Display Light", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.training-image {
+  width: 294px;
+  height: 521.013px;
+}
+
 .sessions-lines {
   width: 100%;
   height: 100%;
