@@ -482,3 +482,80 @@
   line-height: normal;
   font-variant: all-small-caps;
 }
+
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  #about-me-container {
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  .helenhuynh {
+    font-size: 36px;
+  }
+
+  .degree {
+    font-size: 12px;
+  }
+
+  .experience {
+    width: 100%;
+  }
+
+  .second-about-me {
+    font-size: 16px;
+  }
+
+  .reviewers {
+    font-size: 12px;
+  }
+
+  .review-stars {
+    font-size: 18px;
+  }
+
+  .main-review-text {
+    font-size: 20px;
+  }
+
+  .reviews-link {
+    font-size: 14px;
+  }
+
+  .training-section-title {
+    font-size: 36px;
+  }
+
+  .training-type,
+  .pricing {
+    font-size: 16px;
+  }
+
+  .session-dropdown,
+  .training-description {
+    font-size: 12px;
+  }
+
+  .left-title {
+    font-size: 36px;
+  }
+
+  .left-text {
+    font-size: 16px;
+  }
+
+  .contact-info {
+    font-size: 12px;
+  }
+
+  .contact-input-container input,
+  .contact-textarea-container textarea {
+    width: 100%;
+  }
+
+  .contact-submit-button {
+    font-size: 14px;
+  }
+}

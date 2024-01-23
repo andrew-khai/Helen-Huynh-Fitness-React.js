@@ -105,3 +105,8 @@
   font-size: 12px;
   font-weight: 600;
 }
+
+#schedule-button a {
+  text-decoration: none;
+  color: #141C1F;
+}

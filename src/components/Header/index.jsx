@@ -9,13 +9,13 @@ const Header = () => {
           <h2 id="subheader">PERSONAL TRAINER AND NUTRITION COACH</h2>
         </div>
         <div id="site-nav-links">
-          <a className="navbar-links" href="/">About</a>
-          <a className="navbar-links" href="/">Services</a>
-          <a className="navbar-links" href="/">Contact</a>
+          <a className="navbar-links" href="#about-me-container">About</a>
+          <a className="navbar-links" href="#sessions-section-container">Services</a>
+          <a className="navbar-links" href="#contact-section-container">Contact</a>
         </div>
       </nav>
       <button id="schedule-button" className="beige">
-        Schedule a session
+        <a href="#contact-section-container">Schedule a session</a>
       </button>
     </header>
   )

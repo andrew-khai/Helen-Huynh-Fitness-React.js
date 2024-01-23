@@ -141,7 +141,7 @@ const HomePage = () => {
               )}
             </div>
             <div className="sessions-lines"></div>
-            <a href="/" id="session-button">
+            <a href="#contact-section-container" id="session-button">
               Schedule a session
             </a>
           </div>
