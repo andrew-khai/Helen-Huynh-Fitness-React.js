@@ -160,7 +160,7 @@ const HomePage = () => {
               <div className="left-title">Get in touch with us!</div>
               <div className="left-text">Feel free to ask any questions and we'll respond as soon as we can.</div>
             </div>
-            <div className="small-email">helen.huynhh@gmail.com</div>
+            {/* <div className="small-email">helen.huynhh@gmail.com</div> */}
           </div>
           <div className="rightside-contact">
             <div className="contact-input-container">

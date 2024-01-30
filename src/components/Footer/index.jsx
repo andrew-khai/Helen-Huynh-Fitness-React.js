@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="location-name">FOOTHILL PHYSIQUE STUDIOS</div>
               <p>1323 S Shamrock Ave</p>
               <p>Monrovia, CA 91016</p>
-              <p>helen.huynhh@gmail.com</p>
+              {/* <p>helen.huynhh@gmail.com</p> */}
             </div>
             <div className="hours-container">
               <div className="date-time-container">
@@ -52,16 +52,16 @@ const Footer = () => {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/">About</a>
+                <a href="#about-me-container">About</a>
               </li>
               <li>
-                <a href="/">Review</a>
+                <a href="#reviews-section-container">Review</a>
               </li>
               <li>
-                <a href="/">Services</a>
+                <a href="#sessions-section-container">Services</a>
               </li>
               <li>
-                <a href="/">Contact</a>
+                <a href="#contact-section-container">Contact</a>
               </li>
             </ul>
             <ul id="social-links-container">
