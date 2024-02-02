@@ -154,7 +154,10 @@ const HomePage = () => {
         </div>
       </section>
       <section id="contact-section-container">
-        <form className="contact-container">
+        <form 
+        action="https://formspree.io/f/mdoqekvj"
+        method="POST"
+        className="contact-container">
           <div className="leftside-contact">
             <div className="main-contact-content">
               <div className="left-title">Get in touch with us!</div>
@@ -165,20 +168,20 @@ const HomePage = () => {
           <div className="rightside-contact">
             <div className="contact-input-container">
               <div className="contact-info">Name:</div>
-              <input type="text"></input>
+              <input type="text" name="name"></input>
             </div>
             <div style={{width: '100%', height: '100%', border: '1px #F6F0D5 solid'}}></div>
             <div className="contact-input-container">
               <div className="contact-info">Email:</div>
-              <input type="text"></input>
+              <input type="email" name="email"></input>
             </div>
             <div style={{width: '100%', height: '100%', border: '1px #F6F0D5 solid'}}></div>
             <div className="contact-textarea-container">
               <div className="contact-info">Message:</div>
-              <textarea rows={8} placeholder="Leave a message here!"></textarea>
+              <textarea rows={8} name="message" placeholder="Leave a message here!"></textarea>
             </div>
             <div style={{width: '100%', height: '100%', border: '1px #F6F0D5 solid'}}></div>
-            <button className="contact-submit-button">Submit</button>
+            <button className="contact-submit-button" type="submit">Submit</button>
           </div>
         </form>
       </section>
