@@ -483,79 +483,37 @@
   font-variant: all-small-caps;
 }
 
-
-/* Media Queries for Responsive Design */
-@media screen and (max-width: 768px) {
-  /* Adjust styles for smaller screens */
-  #about-me-container {
-    width: 100%;
-    margin-top: 32px;
-  }
-
-  .helenhuynh {
-    font-size: 36px;
-  }
-
-  .degree {
-    font-size: 12px;
-  }
-
-  .experience {
-    width: 100%;
-  }
-
-  .second-about-me {
-    font-size: 16px;
-  }
-
-  .reviewers {
-    font-size: 12px;
-  }
-
-  .review-stars {
-    font-size: 18px;
+/* media screens for review section */
+@media screen and (max-width: 1330px) {
+  .main-review {
+    width: 600px;
   }
 
   .main-review-text {
-    font-size: 20px;
+    font-size: 30px;
+  }
+}
+
+/* media screens for contact me section */
+@media screen and (max-width: 1250px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 0px;
   }
 
-  .reviews-link {
-    font-size: 14px;
+  .leftside-contact {
+    height: 160px;
   }
 
-  .training-section-title {
-    font-size: 36px;
+  .main-contact-content {
+    align-items: center;
   }
 
-  .training-type,
-  .pricing {
-    font-size: 16px;
+  .rightside-contact {
+    width: 700px;
   }
 
-  .session-dropdown,
-  .training-description {
-    font-size: 12px;
-  }
-
-  .left-title {
-    font-size: 36px;
-  }
-
-  .left-text {
-    font-size: 16px;
-  }
-
-  .contact-info {
-    font-size: 12px;
-  }
-
-  .contact-input-container input,
-  .contact-textarea-container textarea {
-    width: 100%;
-  }
-
-  .contact-submit-button {
-    font-size: 14px;
+  .contact-textarea-container > textarea {
+    width: 700px;
   }
 }
