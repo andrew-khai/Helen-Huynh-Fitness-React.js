@@ -110,3 +110,49 @@
   text-decoration: none;
   color: #141C1F;
 }
+
+@media screen and (max-width: 1100px) {
+  #header-title {
+    font-size: 75px;
+    margin-top: 4px;
+    text-align: center;
+  }
+
+  #subheader {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .navbar-links {
+    font-size: 24px;
+  }
+
+  #main-nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+  }
+
+  #schedule-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  #main-header {
+    background-size: auto;
+  }
+
+  #header-title {
+    font-size: 60px;
+  }
+
+  #subheader {
+    font-size: 20px;
+  }
+
+  .navbar-links {
+    font-size: 18px;
+  }
+}

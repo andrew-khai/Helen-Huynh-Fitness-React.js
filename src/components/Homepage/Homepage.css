@@ -494,8 +494,15 @@
   }
 }
 
-/* media screens for contact me section */
+@media screen and (max-width: 1280px) {
+  .main-review {
+    width: 300px;
+  }
+}
+
+
 @media screen and (max-width: 1250px) {
+  /* media screens for contact me section */
   .contact-container {
     flex-direction: column;
     gap: 0px;
@@ -516,4 +523,8 @@
   .contact-textarea-container > textarea {
     width: 700px;
   }
+}
+
+@media screen and (max-width: 1100px) {
+  /* sessions container */
 }
