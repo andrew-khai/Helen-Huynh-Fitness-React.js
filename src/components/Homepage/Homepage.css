@@ -523,8 +523,13 @@
   .contact-textarea-container > textarea {
     width: 700px;
   }
-}
 
-@media screen and (max-width: 1100px) {
   /* sessions container */
+  .training-image {
+    display: none;
+  }
+
+  #session-button {
+    align-self: center;
+  }
 }

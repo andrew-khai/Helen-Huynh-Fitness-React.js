@@ -152,3 +152,10 @@
 #social-links-container a {
   color: #2F4858
 }
+
+
+@media screen and (max-width: 1150px) {
+  #bottom-navbar-container {
+    display: none;
+  }
+}
