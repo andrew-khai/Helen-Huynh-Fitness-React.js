@@ -42,11 +42,11 @@ const HomePage = () => {
               Her passion is to build a lifelong relationship with my clients and become poignant in my clients' lives through guidance, motivation, and experience.
             </p>
           </div>
-          <div>
+          {/* <div>
             <button className="about-button">
               About
             </button>
-          </div>
+          </div> */}
         </div>
       </section>
       <section id="reviews-section-container">

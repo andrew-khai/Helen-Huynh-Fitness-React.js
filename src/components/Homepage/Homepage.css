@@ -24,6 +24,7 @@
 
 #about-me-container {
   display: flex;
+  justify-content: center;
   margin: 0px auto;
   margin-top: 128px;
   width: 965px;
@@ -531,5 +532,31 @@
 
   #session-button {
     align-self: center;
+  }
+
+  /* contact container */
+  .left-text {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  /* contact container */
+  .left-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  /* about me container */
+  #about-me-container {
+    column-gap: 100px;
+  }
+  .helenhuynh {
+    font-size: 60px;
+  }
+
+  .degree {
+    font-size: 14px;
   }
 }
