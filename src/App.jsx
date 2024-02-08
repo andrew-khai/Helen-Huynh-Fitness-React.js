@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HomePage from "./components/Homepage";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 
 const App = () => {
   return (
@@ -10,9 +10,12 @@ const App = () => {
         <Route exact path="/">
           <Header />
           <HomePage />
+          <Footer />
+        </Route>
+        <Route>
+          <Redirect to="/"></Redirect>
         </Route>
       </Switch>
-      <Footer />
     </main>
   )
 }
