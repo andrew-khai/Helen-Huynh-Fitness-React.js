@@ -97,7 +97,7 @@
   color: #2F4858;
   font-family: "SF Pro Display Thin", sans-serif;
   overflow: hidden;
-  text-align: justify;
+  /* text-align: justify; */
   text-overflow: ellipsis;
   font-size: 20px;
   font-style: normal;
