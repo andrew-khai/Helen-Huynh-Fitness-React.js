@@ -38,8 +38,11 @@ const HomePage = () => {
           </div>
           <div className="second-about-me">
             <p style={{ margin: "0px" }}>
-              She specializes in <i>nutrition coaching, muscle building, fat loss, athletic performance, and overall health and longevity. </i>
-              Her passion is to build a lifelong relationship with my clients and become poignant in my clients' lives through guidance, motivation, and experience.
+              {/* She specializes in <i>nutrition coaching, muscle building, fat loss, athletic performance, and overall health and longevity. </i>
+              Her passion is to build a lifelong relationship with my clients and become poignant in my clients' lives through guidance, motivation, and experience. */}
+              5+ years experience in Personal Training and Nutrition Coaching with continued education and NASM certification. Specializing in nutrition coaching, muscle building, fat loss, athletic performance, and overall health and longevity. I strive to build a lifelong relationship with my clients to be poignant in my clients' lives through guidance, motivation, and experience.
+
+              {/* Passionate about a mission to empower individuals to transform their lives through fitness, wellness and nutrition. Coaching clients towards optimal health, strength, and confidence. I am committed to providing personalized training and nutrition programs, education, and support to help my clients achieve their goals and cultivate sustainable healthy habits. I strive to inspire and motivate others to prioritize their well-being, and to create a positive and inclusive health and wellness environment where everyone feels welcome and empowered to reach their full potential. */}
             </p>
           </div>
           {/* <div>
@@ -154,10 +157,10 @@ const HomePage = () => {
         </div>
       </section>
       <section id="contact-section-container">
-        <form 
-        action="https://formspree.io/f/mdoqekvj"
-        method="POST"
-        className="contact-container">
+        <form
+          action="https://formspree.io/f/mdoqekvj"
+          method="POST"
+          className="contact-container">
           <div className="leftside-contact">
             <div className="main-contact-content">
               <div className="left-title">Get in touch with us!</div>
@@ -170,17 +173,17 @@ const HomePage = () => {
               <div className="contact-info">Name:</div>
               <input type="text" name="name"></input>
             </div>
-            <div style={{width: '100%', height: '100%', border: '1px #F6F0D5 solid'}}></div>
+            <div style={{ width: '100%', height: '100%', border: '1px #F6F0D5 solid' }}></div>
             <div className="contact-input-container">
               <div className="contact-info">Email:</div>
               <input type="email" name="email"></input>
             </div>
-            <div style={{width: '100%', height: '100%', border: '1px #F6F0D5 solid'}}></div>
+            <div style={{ width: '100%', height: '100%', border: '1px #F6F0D5 solid' }}></div>
             <div className="contact-textarea-container">
               <div className="contact-info">Message:</div>
               <textarea rows={8} name="message" placeholder="Leave a message here!"></textarea>
             </div>
-            <div style={{width: '100%', height: '100%', border: '1px #F6F0D5 solid'}}></div>
+            <div style={{ width: '100%', height: '100%', border: '1px #F6F0D5 solid' }}></div>
             <button className="contact-submit-button" type="submit">Submit</button>
           </div>
         </form>
