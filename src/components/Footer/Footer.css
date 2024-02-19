@@ -159,3 +159,29 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 450px) {
+  #footer-container {
+    padding: 0px 5px;
+  }
+
+  .location-title {
+    font-size: 16px;
+  }
+
+  .location-name {
+    font-size: 11px;
+  }
+
+  .location-container p {
+    font-size: 13px;
+  }
+
+  .date-time-container {
+    justify-content: space-evenly;
+  }
+
+  #company-copyright {
+    font-size: 12px;
+  }
+}
