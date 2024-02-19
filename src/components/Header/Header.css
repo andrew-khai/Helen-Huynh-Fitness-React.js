@@ -24,6 +24,7 @@
   background-image: url("/images/HelenHero.svg");
   background-position: center -223px;
   background-size: 202% 203%;
+  background-repeat: no-repeat;
 }
 
 #main-nav {
@@ -43,6 +44,7 @@
   font-weight: 100;
   font-size: 61px;
   color: #EDE9D0;
+  white-space: nowrap;
 }
 
 #subheader {
@@ -158,6 +160,15 @@
 }
 
 @media screen and (max-width: 450px) {
+  #main-header {
+    background-size: 340%;
+    background-position: center -73px;
+  }
+
+  #header-title {
+    font-size: 44px;
+  }
+
   #subheader {
     white-space: nowrap;
     font-size: 15px;
