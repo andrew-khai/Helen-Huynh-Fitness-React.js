@@ -145,7 +145,7 @@ const HomePage = () => {
               <div className="training-and-rates">
                 <div className="training-type">GROUP IN-PERSON TRAINING</div>
                 <div className="pricing">
-                  {/* <div>$120/hr</div> */}
+                  <div>60 min</div>
                   <div onClick={toggleDropDown3} className="session-dropdown"><i className={`fa-solid fa-chevron-${dropdown3 ? 'down' : 'up'}`}></i></div>
                 </div>
               </div>
