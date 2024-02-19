@@ -503,6 +503,7 @@
 
 
 @media screen and (max-width: 1250px) {
+
   /* media screens for contact me section */
   .contact-container {
     flex-direction: column;
@@ -521,7 +522,7 @@
     width: 700px;
   }
 
-  .contact-textarea-container > textarea {
+  .contact-textarea-container>textarea {
     width: 700px;
   }
 
@@ -541,6 +542,7 @@
 }
 
 @media screen and (max-width: 1150px) {
+
   /* contact container */
   .left-text {
     font-size: 20px;
@@ -548,15 +550,144 @@
 }
 
 @media screen and (max-width: 1050px) {
+
   /* about me container */
   #about-me-container {
     column-gap: 100px;
   }
+
   .helenhuynh {
     font-size: 60px;
   }
 
   .degree {
     font-size: 14px;
+  }
+}
+
+
+/* mobile */
+@media screen and (max-width: 450px) {
+
+  /* about me section */
+  #about-me-container {
+    justify-content: center;
+    width: 100%;
+  }
+
+  #about-me-details-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me-credentials {
+    width: 370px;
+  }
+
+  .helenhuynh {
+    font-size: 42px;
+  }
+
+  .degree {
+    font-size: 12px;
+  }
+
+  .experience {
+    margin-left: 12px;
+    width: 360px;
+  }
+
+  .second-about-me {
+    height: 220px;
+    width: 360px;
+    margin-left: 12px;
+  }
+
+  /* reviews section */
+  #reviews-section-container {
+    padding: 40px 30px;
+  }
+
+  .mobile-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+  }
+
+  .review-content {
+    height: 4.6em;
+    /* Adjust as needed to accommodate three lines of text */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+
+
+  .main-reviewer {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .review-stars {
+    margin-bottom: 10px;
+  }
+
+  /* sessions section */
+  #sessions-section-container {
+    padding: 0px;
+    width: 100%;
+  }
+
+  .sessions-container {
+    width: 100%;
+  }
+
+  .sessions-info-container {
+    width: 100%;
+  }
+
+  .sessions-section-title {
+    font-size: 32px;
+    align-self: center;
+  }
+
+  .sessions-info {
+    width: 100%;
+    padding: 0px 5px;
+  }
+
+  .training-type {
+    font-size: 14px;
+  }
+
+  .pricing {
+    font-size: 18px;
+  }
+
+  /* contact section */
+  #contact-section-container {
+    padding-inline: 0px;
+  }
+
+  .left-title {
+    font-size: 40px;
+  }
+
+  .left-text {
+    font-size: 12px;
+  }
+
+  .rightside-contact {
+    width: 100%;
+    padding-inline: 10px;
+  }
+
+  form {
+    width: 100%;
   }
 }
