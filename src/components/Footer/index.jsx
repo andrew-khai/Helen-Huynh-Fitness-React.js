@@ -9,9 +9,9 @@ const Footer = () => {
           <div id="location-hours-container">
             <div className="location-container">
               <div className="location-title">Helen Huynh Personal Training</div>
-              <div className="location-name">FOOTHILL PHYSIQUE STUDIOS</div>
-              <p>1323 S Shamrock Ave</p>
-              <p>Monrovia, CA 91016</p>
+              <div className="location-name">FITNESS FACTOR</div>
+              <p>401 Rolyn Pl</p>
+              <p>Arcadia, CA 91007</p>
               {/* <p>helen.huynhh@gmail.com</p> */}
             </div>
             <div className="hours-container">
