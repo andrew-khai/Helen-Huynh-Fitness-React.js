@@ -177,8 +177,8 @@ const HomePage = () => {
           className="contact-container">
           <div className="leftside-contact">
             <div className="main-contact-content">
-              <div className="left-title">Get in touch with us!</div>
-              <div className="left-text">Feel free to ask any questions and we'll respond as soon as we can.</div>
+              <div className="left-title">Get in touch with me!</div>
+              <div className="left-text">Feel free to ask any questions and I'll respond as soon as we can.</div>
             </div>
             {/* <div className="small-email">helen.huynhh@gmail.com</div> */}
           </div>
